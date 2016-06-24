@@ -1,0 +1,70 @@
+/* copyright janepedia.com, yo! please do not redistribute/remove any credit */
+/* reset; we're resetting abbr and acronym because browsers have begun implementing their own styling, which can make things wonky*/
+html,body,#sidebar ul,#sidebar,abbr,acronym,h1,blockquote{padding:0;margin:0;border:0;border-bottom:0}
+/* bare necessities */
+body{font-family:'Anaheim', sans-serif;font-size:1.1em;font-weight:100;line-height:1.8;color:#444/*;background-size:100% 100%*/}
+/* formatting, yo */
+p{}
+strong,b{font-family:'Susanna',sans-serif;font-weight:400;color:#2baba7;letter-spacing:2px}
+em{}
+underline,u{}
+del{text-decoration:line-through}
+mark{}
+a{text-decoration:none;color:#2baba7}
+a:hover{color:#222}
+code{}
+pre{}
+small{}
+big{}
+hr{}
+blockquote,.funnies{background:#fdfdfd;border-radius:10px;padding:5px}
+blockquote{padding:10px;margin:10px}
+blockquote,blockquote strong{font-size:1.2rem;line-height:1.3rem}
+.alignright{float:right;text-align:right}
+.alignleft{float:left;text-align:left}
+.clear{clear:both}
+.center{text-align:center}
+/* headers */
+h1{font:normal 2rem 'Anaheim',sans-serif;margin:0;line-height:2rem}
+h2{font:normal 1.8rem 'Anaheim',sans-serif;margin:0;line-height:1.8rem}
+aside h2{font:normal 1.3rem 'Susanna',sans-serif;margin:0;line-height:1.3rem;text-align:right;padding-bottom:5px;border-bottom:1px dashed #ccc;text-transform:lowercase}
+h3{font:normal 1.6rem 'Anaheim',sans-serrif;margin:0;line-height:1.6rem}
+h4{}
+h5{}
+h6{}
+/* the general shape of all the things */
+footer,#container,header nav{width:75%;max-width:1000px}
+header,footer,header nav,#container{margin:0 auto}
+header,footer{clear:both}
+/* header */
+header{text-align:center;background:#333 url('http://zest.otcg.club/skins/002/darksharp.png') fixed;padding:5px}
+header nav ul{list-style:none;padding:0;text-align:right}
+header nav ul li{display:inline;font-size:2rem;padding:5px}
+header nav a{text-transform:lowercase;color:#eee}
+header nav .logo{float:left;text-alight:left}
+/* container */
+#container{padding-top:5px}
+/* sections */
+section{float:left;width:73%}
+/* articles */
+/* asides */
+aside{float:right;width:25%}
+/* footer */
+footer::before{padding:10px}
+footer{border-top:2px solid #eee;color:#ddd;text-align:center;padding:10px 0;text-transform:lowercase}
+footer a{color:#ccc}
+footer a:hover{color:#2baba7}
+#sidebar nav ul{list-style:none;text-align:right}
+#sidebar nav ul li{margin:5px 0}
+#sidebar nav ul li a{background:#fdfdfd;color:#2baba7;display:block;border-radius:10px;padding:5px;min-width:100%;line-height:1.8}
+#sidebar nav ul li a:hover{background:#b4dcdb;color:#fff}
+/* responsive jazz */
+@media screen and (max-width:450px){#container,footer{width:90%}
+header nav ul{text-align:center}
+header nav ul li{font-size:1.5rem}
+header nav ul li .logo{clear:both;text-align:center;float:none;display:block}
+section,aside{clear:both;float:none;width:100%}}
+/* one column */.column:first-of-type{font-weight:600;}@media all and (max-width:900px) and (min-width:600px){.column {-webkit-column-count:2;/* Saf3, Chrome*/-webkit-column-gap:4%;/* Saf3, Chrome*/-moz-column-count:2;/* FF3.5+ */-moz-column-gap:4%;/* FF3.5+ */column-count:2;/* Opera 11+*/column-gap:4%;/* Opera 11+*/}}@media all and (min-width:900px){.column:first-of-type{-webkit-column-count:2;-webkit-column-gap:3%;/* Saf3, Chrome*/-moz-column-count:2;-moz-column-gap:3%;/* FF3.5+ */column-count:2;column-gap:3%;/* Opera 11+*/}.column{-webkit-column-count:3;-webkit-column-gap:2%;/* Saf3, Chrome*/-moz-column-count:3;-moz-column-gap:2%;/* FF3.5+ */column-count:3;column-gap:2%;/* Opera 11+*/}}/* two columns only */.column2:first-of-type{font-weight:600;}@media all and (max-width:900px) and (min-width:600px){.column2{-webkit-column-count:2;/* Saf3, Chrome*/-webkit-column-gap: 4%;/* Saf3, Chrome*/-moz-column-count:2;/* FF3.5+ */-moz-column-gap: 4%;/* FF3.5+ */column-count:2;/* Opera 11+*/column-gap: 4%;/* Opera 11+*/}}@media all and (min-width:900px){.column2:first-of-type{-webkit-column-count:2;-webkit-column-gap:3%;/* Saf3, Chrome*/-moz-column-count:2;-moz-column-gap:3%;/* FF3.5+ */column-count:2;column-gap:3%;/* Opera 11+*/}.column2{-webkit-column-count:2;-webkit-column-gap:3%;/* Saf3, Chrome*/-moz-column-count:2;-moz-column-gap:3%;/* FF3.5+ */column-count:2;column-gap:3%;/* Opera 11+*/}}
+/* HTML classes */
+.red strong,.red b,.red #container a,.red #sidebar nav ul li a,.red footer a:hover{color:#D46766}.red #sidebar nav ul li a:hover{background:#fcfcfc}
+.red #sidebar nav ul li a:hover,#container a:hover{color:#222}
