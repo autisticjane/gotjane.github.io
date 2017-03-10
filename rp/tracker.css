@@ -5,3 +5,4 @@
 #effy h2{font-family: 'Gloria Hallelujah', cursive;text-transform:lowercase;font-weight:thin;text-align:center;border-bottom:3px solid #47a3af;padding:10px 0}
 #effy a{color:#47a3af}#effy a:hover{color:#333;text-decoration:line-through}
 #effy nav{text-align:center}
+.mobile-post .postcolor #effy{max-width:100%}
