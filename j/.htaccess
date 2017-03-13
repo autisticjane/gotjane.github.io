@@ -1,0 +1,8 @@
+
+    <IfModule mod_rewrite.c>
+    RewriteEngine On
+    #RewriteCond %{REMOTE_ADDR} !^00\.000\.000\.000$
+    #RewriteCond %{REQUEST_URI} !\.(css|jpg|png|gif|bmp|js|ico)  [NC]
+    #RewriteCond %{REQUEST_URI} !move\.html
+    #RewriteRule ^(.*)$ /move.html [R=302,L]
+    </IfModule>
