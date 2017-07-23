@@ -1,13 +1,13 @@
 /* (c) @gotjane on github.com.
 Created for educational purposes only, to go with my Codecademy.com lessons and to hone my skills.
 Not intended for any other use (and copying code teaches one nothing; at least come up with better cop outs). */
-body{background:navy}
-#container{background:#f7f7f7;margin:auto;border:4px solid darkred;border-radius:10px;width:75%}
+body{background:#333}
+#container{background:#f7f7f7;margin:auto;border:4px solid darkred;border-radius:10px;width:75%;padding:20px}
 .navigation{}
-.navigation ul{display:inline-block}
+.navigation li{display:inline-block}
 ul{}
 li{}
 p{}
-#footer{font:normal 1em "courier", monospace;color:#888}
+#footer{font:normal 1em "courier", monospace;color:#888;text-transform:uppercase}
 a{color:navy}
 a:hover{color:cornflowerblue}
