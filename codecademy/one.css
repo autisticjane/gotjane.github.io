@@ -3,8 +3,8 @@ Created for educational purposes only, to go with my Codecademy.com lessons and 
 Not intended for any other use (and copying code teaches one nothing; at least come up with better cop outs). */
 body{background:#333;font:normal 1em Helvetica,arial,sans-serif}
 #container{background:#f7f7f7;margin:auto;border:4px solid darkred;border-radius:10px;width:75%;padding:20px}
-h1{font-family:Georgia,serif;text-align:center}
-.navigation{margin:auto}
+h1{font-family:Georgia,serif;text-align:center;text-transform:lowercase;color:darkred;font-weight:normal}
+.navigation{margin:auto;text-align:center;margin:0;padding:0}
 .navigation li{display:inline-block}
 ul{}
 li{}
