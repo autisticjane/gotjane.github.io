@@ -6,9 +6,6 @@ body{background:#333;font:normal 1em Helvetica,arial,sans-serif}
 h1{font-family:Georgia,serif;text-align:center;text-transform:lowercase;color:darkred;font-weight:normal}
 .navigation{text-align:center;margin:0;padding:0}
 .navigation li{display:inline-block}
-ul{}
-li{}
-p{}
 #footer{font:normal .75em "courier", monospace;color:#888;text-transform:lowercase;text-align:center}
 a{color:midnightblue;text-decoration:none}
 a:hover{color:red}
