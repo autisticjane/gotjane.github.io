@@ -1,8 +1,8 @@
 /* (c) @gotjane on github.com.
 Created for educational purposes only, to go with my Codecademy.com lessons and to hone my skills.
-Not intended for any other use (and copying code teaches one nothing). */
+Not intended for any other use (and copying code teaches one nothing; at least come up with better cop outs). */
 body{background:navy}
-#container{background:#f7f7f7;margin:auto;border:4px solid darkred;border-radius:10px}
+#container{background:#f7f7f7;margin:auto;border:4px solid darkred;border-radius:10px;width:75%}
 .navigation{}
 .navigation ul{display:inline-block}
 ul{}
