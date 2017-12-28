@@ -1,0 +1,36 @@
+/* (c) @gotjane on github.com.
+Created for educational purposes only, to go with my Codecademy.com lessons and to hone my skills.
+Not intended for any other use (and copying code teaches one nothing; at least come up with better cop outs). */
+body{}
+/*
+ * Containers */
+header{}
+footer{}
+/*
+ * Basic formatting */
+strong,b{}
+em,i{}
+del{}
+small{}
+big{}
+mark{}
+code{}
+pre{}
+blockquote{}
+/*
+ * Links */
+a{}
+a:hover{}
+/*
+ * Headers */
+h1{}
+h2{}
+h3{}
+h4{}
+h5{}
+h6{}
+/*
+ * Classes */
+.alignright{}
+.alignleft{}
+.aligncenter{}
