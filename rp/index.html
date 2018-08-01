@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1.0,width=device-width">
+        <title>Portia's codes</title>
+        <link rel="dns-prefetch" href="https://effys.space/static/">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <link rel="stylesheet" href="https://effys.space/static/css/mermaid.css">
+    </head>
+    <body>
+        <div class="content">
+            <h1>Portia's codes</h1>
+                <p>Hi, I'm Portia. I like to code my own stuff because I customize lots of things. I post them here in case you like/want them, too.</p>
+            <h2>Codes</h2>
+                <h3 class="accordion lowercase">9-icon mood board</h3>
+                    <div class="panel">
+                        <p>This uses flexbox, which I learned via playing <a href="https://flexboxfroggy.com/">Flexbox Froggy</a> and <a href="http://jonibologna.com/content/images/flexboxsheet.pdf">this cheatsheet</a>.</p>
+                        <style>.portia_moodbox{display:flex;flex-direction:row;justify-content:space-between;flex-wrap:wrap;align-items:center;align-content:flex-start;padding:0 5px;max-width:320px;margin:0 auto;border:4px solid #e2ebf0;background:#fdfbfb;background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%)}.portia_moodbox img{padding:5px 0;max-width:100px;max-height:100px}.portia{text-align:right;font-size:.8rem;text-transform:lowercase;max-width:320px;margin:0 auto;text-align:center}</style>
+<div class="portia_moodbox">
+<img src="https://i.imgur.com/nxFvt82.png" alt="Redhead icon">
+<img src="https://i.imgur.com/WD8lxfB.png" alt="Pumpkins icon">
+<img src="https://i.imgur.com/fD5v6qI.png" alt="Yellow sunflowers icon">
+<img src="https://i.imgur.com/i87UO5i.png" alt="Train icon (ft. green)">
+<img src="https://i.imgur.com/KsQZxvg.png" alt="A witch bows to no man icon">
+<img src="https://i.imgur.com/9Pe9Qmd.png" alt="Blue hair with moon clip icon">
+<img src="https://i.imgur.com/E51wPf2.png" alt="Cinnamon icon">
+<img src="https://i.imgur.com/41e0JfH.jpg" alt="Purple masquerade masks">
+<img src="https://i.imgur.com/gHpH5rb.png" alt="Strawberry cupcake icon">
+</div>
+<div class="portia"><a href="https://gotjane.github.io/rp/">x</a></div>
+                        <p><strong>Usage:</strong> Copy and paste the code</p>
+                    </div>
+            <footer>
+                <p class="center lowercase">&copy; @gotjane | no data is collected because I'm lazy AF</p>
+            </footer>
+        </div>
+        <!--js-->
+            <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight){
+                  panel.style.maxHeight = null;
+                } else {
+                  panel.style.maxHeight = panel.scrollHeight + "px";
+                } 
+              });
+            }
+            </script>
+        <!--end js-->
+    </body>
+</html>
