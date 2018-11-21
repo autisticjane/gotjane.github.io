@@ -3,20 +3,84 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="initial-scale=1.0,width=device-width">
-        <title>It's Jane, FYI</title>
+        <title>Effy's ____</title>
         <link rel="dns-prefetch" href="https://effys.space/static/">
         <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
         <link rel="stylesheet" href="https://effys.space/static/css/mermaid.css">
     </head>
     <body>
         <div class="content">
-            <h1>It's Jane, FYI</h1>
-		<p>Hi, I'm @gotjane on <a href="https://www.duolingo.com/gotjane">Duolingo</a>,<a href="https://github.com/gotjane">Github</a>, <a href="https://instagram.com/gotjane">Instagram</a>, <a href="https://tapas.io/gotjane">Tapas.io</a>, <a href="https://twitter.com/gotjane">Twitter</a>, and lots of other places.</p>
-		<p>This is just a placeholder page. Obviously.</p>
+            <h1>Effy's ___</h1>
+                <p>Welcome to my space on the internet. I'm Effy, but if you're not into TCGs, you know me as Jane.</p>
+            <h2>The deets</h2>
+                <h3 class="accordion lowercase">About the site</h3>
+                    <div class="panel">
+                        <p>It's kind of a long story, but the gist is that I wanted to keep my online trading card game (oTCG) stuff separate from my blog, but also in a way that reflected who I am. Effy's Space isn't a collective, but it is a bit of a sandbox to host my projects. The idea of keeping a sandbox on the same domain as my blog seemed weird.</p>
+                    </div>
+                <h3 class="accordion lowercase">Sandbox</h3>
+                    <div class="panel">
+                        <ul>
+                            <li><a href="/sandbox/hopefades">Hope Fades</a></li>
+                            <li>TCG trade post (currently under co./on hiatus/broken/etc.)</li>
+                            <li><a href="/sandbox/zest">Zest</a> - food TCG</li>
+                            <li>Wild Thing - scifi/fantasy TV TCG</li>
+                        </ul>
+                    </div>
+                <h3 class="accordion lowercase">Where you can find me</h3>
+                    <div class="panel">
+                        <p>First and foremost, you can find me at <a href="https://janepedia.com">Janepedia</a>, my blog.~</p>
+                            <ul>
+                                <li><a href="https://www.duolingo.com/gotjane">Duolingo</a></li>
+                                <li><a href="https://www.facebook.com/janepediacom">Facebook</a></li>
+                                <li><a href="https://www.goodreads.com/user/show/6160975-jane">Goodreads</a></li>
+                                <li><a href="https://www.instagram.com/gotjane/">Instagram</a></li>
+                                <li><a href="https://www.pinterest.com/janepedia/boards/">Pinterest</a></li>
+                                <li><a href="https://tapas.io/gotjane">Tapas.io</a></li>
+                                <li><a href="https://thehungercaves.tumblr.com/">Tumblr</a></li>
+                                <li><a href="https://twitter.com/gotjane">Twitter</a></li>
+                            </ul>
+                    </div>
+            <h2>Frequently asked questions</h2>
+                <h3 class="accordion lowercase">Can I adopt Zest?</h3>
+                    <div class="panel">
+                        <p>Funny story! I adopted Zest out, but nothing ever came to it when I was missing it and ready to run it again, so&hellip;I realized adopting it out was pointless and got too many peoples' hopes up, and I'm not gonna drag Zest's <em>amazing</em> players/fans/foodies through the mud of hope again.</p>
+                        <p><small>P.S. I low-key want to call you guys "Zestites", but that high-key sounds like an STD or type of bug that you randomly find in your bed at night.</small></p>
+                    </div>
+                <h3 class="accordion lowercase">What are you currently working on?</h3>
+                    <p class="panel">This index page. A little bit of this and that. Poke around to learn more, because I don't want to keep up with this part. Otherwise, you'll find out when I'm finished&hellip;if I release it to the public. Whenever that is, if that ever is, etc.</p>
+                <h3 class="accordion lowercase">When is Zest coming back?!</h3>
+                    <p class="panel">Information about <a href="/zest">Zest</a> is on its respective directory.</p>
+                <h3 class="accordion lowercase">Why do you always randomly disappear from the TCG community &amp; then return out of nowhere?</h3>
+                    <div class="panel">
+                        <ol>
+                            <li>I have commitment issues. It's hard for me. I set out to do something, and then suddenly it's three months later. Because I forget.</li>
+                            <li>I do a <em>lot</em> of other things. I'm fascinated by culture and learning.</li>
+                            <li>Burnout sucks.</li>
+                            <li>I don't always feel like I fit in in the community, tbh. And it's not exactly like I'm the easiest to get on with.</li>
+                            <li>I'm in my late 20s and have to adult. :/</li>
+                        </ol>
                     </div>
             <footer>
-                <p class="center lowercase">&copy; me | no data is collected because I'm lazy AF</p>
+                <p class="center lowercase">&copy; effys.space | no data is collected because I'm lazy AF</p>
             </footer>
         </div>
+        <!--js-->
+            <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight){
+                  panel.style.maxHeight = null;
+                } else {
+                  panel.style.maxHeight = panel.scrollHeight + "px";
+                } 
+              });
+            }
+            </script>
+        <!--end js-->
     </body>
 </html>
