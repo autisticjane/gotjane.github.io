@@ -1,0 +1,26 @@
+/*
+Coded by Jane (janepedia.com) for use on own websites, i.e. effys.space and subdomains
+*/
+body{margin:0 auto;font:normal 1.1rem/1.5rem 'Quicksand',sans-serif}
+.content{margin:0 auto;color:#333;padding:10px}
+h1{line-height:2.5rem;color:#330867;background-image:linear-gradient(to top, #30cfd0 0%, #330867 100%);-webkit-background-clip:text;
+  -webkit-text-fill-color:transparent}
+h2{color:#30cfd0}
+h3{color:#444}
+h1,h2{text-transform:lowercase}
+h1,h2,h3{font-family:arial,sans-serif}
+.accordion{cursor:pointer;width:100%;border:none;text-align:left;outline:none;transition:0.4s}
+.active,.accordion:hover{color:orange}
+.accordion:after{content:'\002B';color:#777;font-weight:bold;float:right;margin-left:5px}
+.active:after{content:"\2212"}
+.panel{padding:0;max-height:0;overflow:hidden;transition:max-height 0.2s ease-out}
+a{color:#ff758c;text-decoration:none;font-family:arial,sans-serif}
+footer a{font-weight:bold}
+a:focus{background-color:#eee}
+a:hover{color:#444}
+.button{padding:1rem;color:#fff;background-image:linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);display:block}
+footer p{font-family:arial,sans-serif}
+/*various classes*/
+.center{text-align:center}
+.lowercase{text-transform:lowercase}
+@media only screen and (min-width:540px){.content{max-width:540px}}
