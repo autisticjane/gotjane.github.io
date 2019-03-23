@@ -56,7 +56,6 @@ header{}
 		font:300 1.35rem "Inconsolata", monospace
 	}
 	p{}
-	p::last-of-type{}
 img{
 	max-width:100%
 }
@@ -127,4 +126,9 @@ a:hover{
 .fab:hover,
 .fas:hover{
 	color:#333
+}
+::-moz-selection,
+::selection{
+	color:#fff;
+	background:#00a4a6
 }
