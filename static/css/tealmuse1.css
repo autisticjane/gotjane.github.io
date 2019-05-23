@@ -6,86 +6,94 @@
  * Purple: #e000e0
  * Teal: #00a4a6
  */
-*{
-	box-sizing:border-box
+body{font:300 1.2rem "Inconsolata", monospace}
+.sauce{
+	font-size:1.5rem;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between
 }
-body{
-	font:300 1.2rem "Inconsolata", monospace
+.sauce time{
+	font-size:1.2rem
 }
+.everything{
+	margin:0 auto;
+	max-width:600px
+}
+header{}
 .site-header,
 .site-footer{
 	margin:0 auto;
 	max-width:600px
 }
-.project-card-wrapper{
-	display:grid;
-	grid-gap:1rem;
-	grid-template-columns:1fr 1fr;
+.card-wrapper{
 	margin:0 auto;
 	max-width:650px
 }
-.project-card{
-	align-items:flex-end;
-	background-color:rgba(170,143,0,0.25);
-	background-position:center;
-	background-size:cover;
-	border-radius:.5rem;
-	display:flex;
-	height:55vh;
-	justify-content:center;
-	max-height:23rem;
-	min-height:15rem;
-	transition:transform .2s ease-out
-}
-.project-card:hover{
-	transform:scale(1.05)
-}
-.project-card-info{
-	background-color:rgba(1,1,1,0.25);
-	border-radius:0 0 .5rem .5rem;
-	color:white;
-	padding:1rem 1.5rem;
-	width:100%
-}
-.project-card__time{
-	display:block;
-	text-transform:lowercase
-}
-.project-card__title{
-	font-size:1.5rem
-}
 h1{
-	color:#00a4a6;
+	color: #00a4a6;
 	font:400 3.5rem "Marck Script", cursive;
+	text-align:center;
 	text-transform:lowercase;
 }
-h1,
 .intro,
-.project-card-info,
-.site-footer{
+footer{
 	text-align:center
 }
-.site-footer{
-	text-transform:lowercase
+.social{}
+
+.project-card{
+	padding:20px 0;
+	border-bottom:4px solid #eee;
 }
-a{
-	color:#e000e0;
-	text-decoration:none
+.project-card:after{
+	content:"";
+	clear:both
 }
-a:hover{
-	color:#444
+.project-card:last-of-type{
+	border-bottom:none;
+	border:0;
 }
 h2{
-	font:400 2.9rem/1 "Marck Script", cursive;
+	color:#aa8f00;
+	font:400 2.5rem/1 "Marck Script", cursive;
 	text-transform:lowercase
 }
 h3,
-.site-footer p{
+footer p{
 	color:#939393;
 	font:300 1.35rem "Inconsolata", monospace
 }
+p{}
 img{
 	max-width:100%
+}
+.align-left{
+	float:left;
+	text-align:left;
+	padding-right:10px
+}
+.thumbnail{
+	border-radius:20px;
+	height:200px;
+	width:200px
+}
+.align-right{
+	float:right;
+	text-align:right;
+	padding-left:10px
+}
+.info{
+
+}
+a{
+	color:#e000e0;
+}
+a:focus{
+	background-color:#eee
+}
+a:hover{
+	text-decoration:none
 }
 /* fade transition sauce: https://codepen.io/shshaw/pen/wWQZEB */
 .social-icons{

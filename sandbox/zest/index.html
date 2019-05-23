@@ -1,89 +1,21 @@
 <!doctype html>
-<html lang="en-us">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="initial-scale=1.0,width=device-width">
-        <title>Zest | a food TCG</title>
-        <link rel="dns-prefetch" href="/static/"> 
-        <link rel="shortcut icon" type="image/x-icon" href="https://78.media.tumblr.com/tumblr_m48mergboD1r017k2.gif">
-        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-        <link rel="stylesheet" href="/static/css/mermaid.css">
-    </head>
-    <body>
-        <div class="content">
-            <h1>Hiya. <img src="https://78.media.tumblr.com/tumblr_m48mergboD1r017k2.gif" alt="Sandwich pixel art"></h1>
-                <p>Zest <strong>is</strong> returning, but it will be a while. I'm rebuilding every aspect of the TCG from the ground-up&mdash;except the cards.</p>
-            <h2>Potential questions</h2>
-                <h3 class="accordion">Wait, who are you again?</h3>
-                    <div class="panel">
-                        <p>Effy. You might also know me as Liz. And I go by Jane everywhere else! I have a blog&mdash;<a href="https://janepedia.com">Janepedia</a>, if you're interested!</p>
-                        <p>Other places to find me:</p>
-                            <ul>
-                                <li><a href="https://www.facebook.com/janepediacom">Facebook page</a> (for blog)</li>
-                                <li><a href="https://www.goodreads.com/user/show/6160975-jane">Goodreads</a></li>
-                                <li><a href="https://www.instagram.com/gotjane/">Instagram</a> @gotjane (MIA because dead phone)</li>
-                                <li><a href="https://www.pinterest.com/janepedia/boards/">Pinterest</a> @gotjane</li>
-                                <li><a href="https://twitter.com/gotjane">Twitter</a> @gotjane</li>
-                            </ul>
-                    </div>
-                <h3 class="accordion">What progress have you made already?</h3>
-                    <div class="panel">
-                        <p>I'm at the point of announcing minimal details, haha. XD I haven't coded anything as of July 2018, except for what you see here. The gameplay is developed, though; I've never seen anything like it, but inspiration comes from board/card games, digital games, and&mdash;dare I say it&mdash;television.</p>
-                            <ul>
-                                <li><del>Plan gameplay</del> (07.2018)</li>
-                                <li>TCG management system</li>
-                                <li>Add necessary data</li>
-                                <li>Design</li>
-                                <li>Find staff &amp; open up deck donations</li>
-                                <li>Reopen (prejoin)</li>
-                            </ul>
-                    </div>
-                <h3 class="accordion">Do you have an estimate for when you'll be ready for staff/donations/members?</h3>
-                    <div class="panel">    
-                        <p>Nope. I'm taking this project slowly. I'm coding my own TCG management system because I'm not into the other options out there, and that takes a bit of time.</p>
-                        <p>Plus, I'm trying to balance the rest of my life this time around. I didn't do that so well before, because I was young and dumb.</p>
-                    </div>
-                <h3 class="accordion">Should we still keep our cards?</h3>
-                   <p class="panel">If you want to, be my guest. However, all players will be required to start over. In this new version of Zest, cards will not be at the center of the game (e.g. determine levels, etc.).</p>
-                <h3 class="accordion">Will we be rewarded for previous donations?</h3>
-                  <p class="panel">This is really hard to keep up with! There will be a special gift for veteran members of Zest who can prove their membership (e.g. member card) if I can't find record of it in what little I have from the files. It'll probably, at most, be like an extra starter pack, with a "Veteran" title to your profile.</p>
-                <h3 class="accordion">Can you pleaseee give spoilers?</h3>
-                    <div class="panel">
-                      <p>I don't want to jinx anything like I have in the past; it really just overwhelms me. In developing a better gameplay this round, I went in with the following:</p>
-                          <ul>
-                            <li>Game remains fun even for super active/high level members</li>
-                            <li>Inflation issues resolved <em>before</em> they come up (e.g. so many cards/currency that there's nothing to do with them)</li>
-                            <li>More automation - so the game continues, even if I go MIA for awhile</li>
-                            </ul>
-                    </div>
-                <h3 class="accordion">What about feedback?</h3>
-                    <div class="panel">
-                        <p>Instead of asking for feedback from the whole community while in development, there will be plenty of time to provide feedback during Prejoin, if you happen to join.</p>
-                        <p>I do feel it's important to note that some gameplay aspects will be non-negotiable. I'm expecting a bit of kickback due to how the entire game will operate, but I'm a risk-taker <a href="https://janepedia.com">in the blogosphere</a> and by people who know me, so&hellip;I'm not too worried.~</p>
-                    </div>
-                <h3 class="accordion">Okay, but what about that sci-fi TCG?</h3>
-                    <p class="panel">Well, I still have to code my own TCG management system. ;) Let's talk after Zest is up and running and I'm not pulling my hair out every single update. XD</p>
-            <footer>
-                <p class="center lowercase">{ <a href="/">effys.space</a> }</p>
-            </footer>
-        </div>
-        <!--js-->
-            <script>
-            var acc = document.getElementsByClassName("accordion");
-            var i;
-            
-            for (i = 0; i < acc.length; i++) {
-              acc[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var panel = this.nextElementSibling;
-                if (panel.style.maxHeight){
-                  panel.style.maxHeight = null;
-                } else {
-                  panel.style.maxHeight = panel.scrollHeight + "px";
-                } 
-              });
-            }
-            </script>
-        <!--end js-->
-    </body>
+<html lang="en-US" id="html">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0,width=device-width">
+	<title>Food TCG</title>
+	<link rel="shortcut icon" type="image/x-icon" href="https://78.media.tumblr.com/tumblr_m48mergboD1r017k2.gif">
+	<!-- stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700s" rel="stylesheet">
+	<link href="https://logprompt.me/maintenance.css" rel="stylesheet">
+</head>
+<body>
+    <div class="content">
+        <h1>Food TCG <img src="https://78.media.tumblr.com/tumblr_m48mergboD1r017k2.gif" alt="Sandwich pixel art"></h1>
+        <p>The chapter of Zest has closed. I'm working on an entirely new TCG, TBA 2020.</p>
+		<p>New cards, new gameplay, new everything.</p>
+		<p>Including a <a href="http://foodtcg.club">domain</a>.</p>
+        <p><a href="/">✌️</a></p>
+    </div>
+</body>
 </html>
