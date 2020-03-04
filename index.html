@@ -10,6 +10,54 @@
 	<link rel="dns-prefetch" href="https://git.jane.fyi/static/">
 	<!-- stylesheets -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<style>
+		/* fade transition sauce: https://codepen.io/shshaw/pen/wWQZEB */
+.social-icons{
+	padding:10px 0;
+	width:50%;
+	margin:0 auto;
+	text-align:center;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-content:center;
+	visibility:hidden
+}
+.social-icons > *{
+	visibility:visible;
+	transition:opacity 150ms linear 100ms, transform 150ms ease-in-out 100ms
+}
+.social-icons:hover > *{
+	opacity: 0.4; transform: scale(0.9)
+}
+.social-icons > *:hover{
+	opacity: 1; transform: scale(1); transition-delay: 0ms, 0ms
+}
+.fa-blog{
+	color:#00a4a6
+}
+.fa-github{
+	color:#6cc644
+}
+.fa-instagram{
+	color:#c13584
+}
+.fa-pinterest{
+	color:#bd081c
+}
+.fa-twitter{
+	color:#1da1f2
+}
+.fab:hover,
+.fas:hover{
+	color:#333
+}
+::-moz-selection,
+::selection{
+	color:#fff;
+	background:#00a4a6
+}
+	</style>
 	<!-- meta properties -->
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="website">
